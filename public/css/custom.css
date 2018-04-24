@@ -1,0 +1,69 @@
+.content-header .row h1 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.fa-no-text {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+}
+
+.alert-success h4 {
+    margin-bottom: 0px;
+}
+
+.modal-tooltip {
+    display: inline-block;
+}
+
+.main-cell {
+    width: 100%;
+}
+
+.no-wrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.modal h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.modal .confirm-center {
+    text-align: center;
+    padding: 5px 0 0 0;
+}
+
+.content-header .row input + a, .content .row input + a {
+    line-height: 34px;
+    margin-right: 15px;
+}
+
+.main-header .logo-lg {
+    height: 100%;
+    /*background: url(/img/logo/logo_dark.svg) no-repeat center center;*/
+    background-size: 70%;
+}
+
+.sidebar-menu .treeview-menu > li > a {
+    padding: 12px 5px 12px 35px;
+}
+
+@media (max-width: 767px) {
+    .skin-black .main-header > .logo .logo-lg {
+        /*background: url(/img/logo/logo_white.svg) no-repeat center center;*/
+        background-size: 40%;
+    }
+}
